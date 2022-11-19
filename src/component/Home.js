@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <div className="bgrc-sec">
       <div className="Header-section">
-       
+       <NavBar/>
         <Header />
       </div>
       </div>
