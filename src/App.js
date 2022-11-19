@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './component/Home';
 import NavBar from './component/NavBar';
@@ -13,7 +12,7 @@ function App() {
     <div className="Header-section1"> <NavBar/></div>
      <Routes>
       <Route path='Home' index element ={ <Home/>}/>
-      <Route path='BuySell' index element ={ <Home2/>}/>
+      {/* <Route path='BuySell' index element ={ <Home2/>}/> */}
 
      </Routes>
      </BrowserRouter>
