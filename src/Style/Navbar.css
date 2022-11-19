@@ -1,0 +1,32 @@
+#bttn {
+  border: solid white;
+  margin: 0px 10px;
+}
+#bttn1 {
+  border: solid white;
+  margin: 0px 10px;
+  background-color: #ffffff;
+
+}
+#bttn:hover {
+  background:#ffffff;
+  color:#7c1fbf ;
+}
+
+#bttn1:hover {
+  background: linear-gradient(#7c1fbf, #470a73);
+color: white;
+}
+
+  @media only screen and (max-width : 480PX) {
+    #bttn {
+        border: solid white;
+        margin: 0px 10px;
+        margin-bottom: 1rem;
+      }
+      #bttn1 {
+        border: solid white;
+        margin: 0px 10px;
+        background-color: #ffffff;
+      }
+}

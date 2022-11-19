@@ -1,0 +1,27 @@
+.lorem-cont{
+    text-align: center;
+ }
+ .text-cont {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+   
+  }
+
+
+  /* //////////////Media Query/////// */
+
+  @media only screen and (max-width : 480PX) {
+   
+    .lorem-cont{
+        text-align: left;
+        padding: 10px;
+     }
+     .text-cont {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        padding: 10px;
+       
+      }
+}

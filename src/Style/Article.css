@@ -1,0 +1,25 @@
+.ready-cont{
+    background-color: #EDE9EF;
+    text-align: center;
+    padding-top: 3rem;
+}
+.get-started-cont{
+    width: 12rem;
+    height: 2rem;
+    background-color: #7C20BF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+
+}
+.playstore{
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+   justify-content: center;
+  margin: auto;
+  
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
