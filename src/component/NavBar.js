@@ -15,8 +15,8 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="/BuySell">Instant Buy/Sell</Nav.Link>
-                            <Nav.Link href="#Learn">Learn</Nav.Link>
+                            <Nav.Link href="/BuySell"  className='Learn'>Instant Buy/Sell</Nav.Link>
+                            <Nav.Link href="#Learn" className='Learn'>Learn</Nav.Link>
                             <Nav.Link href="#Login" id='bttn' className='btn btn px-4' >Login</Nav.Link>
                             <Nav.Link href="#GetStarted"   id='bttn1' className='btn btn' >Get Started</Nav.Link>
                         </Nav>

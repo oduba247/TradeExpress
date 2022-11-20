@@ -17,6 +17,12 @@
   background: linear-gradient(#7c1fbf, #470a73);
 color: white;
 }
+.Learn:hover{
+ border: #ffffff solid;
+  color:#f1dada;
+  border-radius: 5px;
+  margin-right:10px ;
+}
 
   @media only screen and (max-width : 480PX) {
     #bttn {

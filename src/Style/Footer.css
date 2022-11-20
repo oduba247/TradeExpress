@@ -21,6 +21,15 @@ ul{
     flex-direction: row;
  gap: 2rem;
 }
+.footer-p :hover{
+color:rgb(97, 97, 218);
+cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
   /* ///Media Query/// */
   @media only screen and (max-width : 480PX) {
     .main-cont{
@@ -38,7 +47,12 @@ ul{
         color: #EDE9EF;
         
     }
-}
+    .icon-tab{
+        align-items: center;
+        padding-left: 4rem;
+     }
+ }
+
   @media only screen and (max-width : 768PX) {
     .main-cont{
         display: flex;
@@ -62,8 +76,8 @@ ul{
    
     .icon-tab{
        align-items: center;
-       padding-left: 15rem;
-    }
+       padding-left: 4rem;
+        }
 }
   @media only screen and (max-width : 820PX) {
     .main-cont{
@@ -88,6 +102,6 @@ ul{
    
     .icon-tab{
        align-items: center;
-       padding-left: 15rem;
+       padding-left: 4rem;
     }
 }
